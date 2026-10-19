@@ -1,0 +1,15 @@
+{
+  "name": "math-journey",
+  "version": "2.1.0",
+  "description": "رحلة الرياضيات — لعبة تعليمية تفاعلية بالعربية مع مولّد أسئلة بالذكاء الاصطناعي",
+  "private": true,
+  "scripts": {
+    "test": "node tests/test-journey.js && node tests/test-stress.js && node tests/test-dialogs.js && node tests/test-teachers.js && node tests/test-migration.js && node tests/test-share.js && node tests/test-sync.js && node tests/test-lessons.js && node tests/test-ownbank.js && node tests/test-aigen.js",
+    "test:journey": "node tests/test-journey.js",
+    "test:ai": "node tests/test-aigen.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  },
+  "license": "UNLICENSED"
+}

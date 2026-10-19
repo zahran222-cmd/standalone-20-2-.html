@@ -1,0 +1,17 @@
+# حزم Node (تُثبَّت محليًا لتشغيل الاختبارات فقط)
+node_modules/
+package-lock.json
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# محررات
+.vscode/
+.idea/
+*.swp
+
+# ملفات مؤقتة
+*.log
+tmp/
